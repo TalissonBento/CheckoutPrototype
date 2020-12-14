@@ -1,0 +1,931 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		092C9B6B25867F9F003E3316 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C9B6A25867F9F003E3316 /* HomeView.swift */; };
+		092C9B702586843D003E3316 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C9B6F2586843D003E3316 /* DashboardView.swift */; };
+		092C9B7D25868563003E3316 /* ZoopLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C9B7C25868563003E3316 /* ZoopLogo.swift */; };
+		092C9B902586A6E3003E3316 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 092C9B832586A6E2003E3316 /* Roboto-Medium.ttf */; };
+		092C9B912586A6E3003E3316 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 092C9B842586A6E2003E3316 /* Roboto-Light.ttf */; };
+		092C9B922586A6E3003E3316 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 092C9B852586A6E2003E3316 /* Roboto-Regular.ttf */; };
+		092C9B932586A6E3003E3316 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 092C9B862586A6E2003E3316 /* Roboto-MediumItalic.ttf */; };
+		092C9B942586A6E3003E3316 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 092C9B872586A6E2003E3316 /* Roboto-ThinItalic.ttf */; };
+		092C9B952586A6E3003E3316 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 092C9B882586A6E2003E3316 /* Roboto-BoldItalic.ttf */; };
+		092C9B962586A6E3003E3316 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 092C9B892586A6E2003E3316 /* Roboto-LightItalic.ttf */; };
+		092C9B972586A6E3003E3316 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 092C9B8A2586A6E2003E3316 /* Roboto-Italic.ttf */; };
+		092C9B982586A6E3003E3316 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092C9B8B2586A6E2003E3316 /* LICENSE.txt */; };
+		092C9B992586A6E3003E3316 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 092C9B8C2586A6E2003E3316 /* Roboto-BlackItalic.ttf */; };
+		092C9B9A2586A6E3003E3316 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 092C9B8D2586A6E2003E3316 /* Roboto-Bold.ttf */; };
+		092C9B9B2586A6E3003E3316 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 092C9B8E2586A6E2003E3316 /* Roboto-Thin.ttf */; };
+		092C9B9C2586A6E3003E3316 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 092C9B8F2586A6E2003E3316 /* Roboto-Black.ttf */; };
+		092C9BA12586A8DF003E3316 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C9BA02586A8DF003E3316 /* Constants.swift */; };
+		092C9BAA2586ADEC003E3316 /* Buttons+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C9BA92586ADEC003E3316 /* Buttons+Extension.swift */; };
+		092C9BB52586B8D9003E3316 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C9BB42586B8D9003E3316 /* View+Extension.swift */; };
+		092C9BC22587690E003E3316 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C9BC12587690E003E3316 /* SignInView.swift */; };
+		092C9BC825876971003E3316 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C9BC725876971003E3316 /* SignInViewModel.swift */; };
+		092C9BD125876D31003E3316 /* UserCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C9BD025876D31003E3316 /* UserCredential.swift */; };
+		093C9D25258626E600286702 /* ZoopCheckoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093C9D24258626E600286702 /* ZoopCheckoutApp.swift */; };
+		093C9D27258626E600286702 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093C9D26258626E600286702 /* SplashView.swift */; };
+		093C9D29258626EB00286702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 093C9D28258626EB00286702 /* Assets.xcassets */; };
+		093C9D2C258626EB00286702 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 093C9D2B258626EB00286702 /* Preview Assets.xcassets */; };
+		093C9D37258626EC00286702 /* ZoopCheckoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093C9D36258626EC00286702 /* ZoopCheckoutTests.swift */; };
+		093C9D42258626EC00286702 /* ZoopCheckoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093C9D41258626EC00286702 /* ZoopCheckoutUITests.swift */; };
+		466640B616CF243EFFA200C4 /* Pods_ZoopCheckoutTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0160141F0208471FDD1FBDF2 /* Pods_ZoopCheckoutTests.framework */; };
+		680BE226BDF615AE3EB497DB /* Pods_ZoopCheckout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D2BD47A0B3F043DB5D98A2 /* Pods_ZoopCheckout.framework */; };
+		FC131E819B9FCB8E906E2582 /* Pods_ZoopCheckout_ZoopCheckoutUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F04E126BA7F289B7898095 /* Pods_ZoopCheckout_ZoopCheckoutUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		093C9D33258626EC00286702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 093C9D19258626E600286702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 093C9D20258626E600286702;
+			remoteInfo = ZoopCheckout;
+		};
+		093C9D3E258626EC00286702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 093C9D19258626E600286702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 093C9D20258626E600286702;
+			remoteInfo = ZoopCheckout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0160141F0208471FDD1FBDF2 /* Pods_ZoopCheckoutTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZoopCheckoutTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D2BD47A0B3F043DB5D98A2 /* Pods_ZoopCheckout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZoopCheckout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		092C9B6A25867F9F003E3316 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		092C9B6F2586843D003E3316 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		092C9B7C25868563003E3316 /* ZoopLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoopLogo.swift; sourceTree = "<group>"; };
+		092C9B832586A6E2003E3316 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		092C9B842586A6E2003E3316 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		092C9B852586A6E2003E3316 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		092C9B862586A6E2003E3316 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		092C9B872586A6E2003E3316 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		092C9B882586A6E2003E3316 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		092C9B892586A6E2003E3316 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		092C9B8A2586A6E2003E3316 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		092C9B8B2586A6E2003E3316 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		092C9B8C2586A6E2003E3316 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		092C9B8D2586A6E2003E3316 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		092C9B8E2586A6E2003E3316 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		092C9B8F2586A6E2003E3316 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		092C9BA02586A8DF003E3316 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		092C9BA92586ADEC003E3316 /* Buttons+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Buttons+Extension.swift"; sourceTree = "<group>"; };
+		092C9BB42586B8D9003E3316 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		092C9BC12587690E003E3316 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		092C9BC725876971003E3316 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		092C9BD025876D31003E3316 /* UserCredential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCredential.swift; sourceTree = "<group>"; };
+		093C9D21258626E600286702 /* ZoopCheckout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoopCheckout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		093C9D24258626E600286702 /* ZoopCheckoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoopCheckoutApp.swift; sourceTree = "<group>"; };
+		093C9D26258626E600286702 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		093C9D28258626EB00286702 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		093C9D2B258626EB00286702 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		093C9D2D258626EB00286702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		093C9D32258626EC00286702 /* ZoopCheckoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoopCheckoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		093C9D36258626EC00286702 /* ZoopCheckoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoopCheckoutTests.swift; sourceTree = "<group>"; };
+		093C9D38258626EC00286702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		093C9D3D258626EC00286702 /* ZoopCheckoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoopCheckoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		093C9D41258626EC00286702 /* ZoopCheckoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoopCheckoutUITests.swift; sourceTree = "<group>"; };
+		093C9D43258626EC00286702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13EF668A7FD5C05DBC7A1B46 /* Pods-ZoopCheckout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoopCheckout.debug.xcconfig"; path = "Target Support Files/Pods-ZoopCheckout/Pods-ZoopCheckout.debug.xcconfig"; sourceTree = "<group>"; };
+		25CF03CD7D2339DF4C5CC37E /* Pods-ZoopCheckoutTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoopCheckoutTests.release.xcconfig"; path = "Target Support Files/Pods-ZoopCheckoutTests/Pods-ZoopCheckoutTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E15E6CCF995CC70BF61F40F /* Pods-ZoopCheckoutTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoopCheckoutTests.debug.xcconfig"; path = "Target Support Files/Pods-ZoopCheckoutTests/Pods-ZoopCheckoutTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7226AFC7309F1FE56BDD5E8F /* Pods-ZoopCheckout-ZoopCheckoutUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoopCheckout-ZoopCheckoutUITests.debug.xcconfig"; path = "Target Support Files/Pods-ZoopCheckout-ZoopCheckoutUITests/Pods-ZoopCheckout-ZoopCheckoutUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D3A98C27B368B5B8DB3BE46 /* Pods-ZoopCheckout-ZoopCheckoutUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoopCheckout-ZoopCheckoutUITests.release.xcconfig"; path = "Target Support Files/Pods-ZoopCheckout-ZoopCheckoutUITests/Pods-ZoopCheckout-ZoopCheckoutUITests.release.xcconfig"; sourceTree = "<group>"; };
+		96F04E126BA7F289B7898095 /* Pods_ZoopCheckout_ZoopCheckoutUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZoopCheckout_ZoopCheckoutUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D347F10DC6AB4CCF79D50708 /* Pods-ZoopCheckout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoopCheckout.release.xcconfig"; path = "Target Support Files/Pods-ZoopCheckout/Pods-ZoopCheckout.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		093C9D1E258626E600286702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680BE226BDF615AE3EB497DB /* Pods_ZoopCheckout.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093C9D2F258626EC00286702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466640B616CF243EFFA200C4 /* Pods_ZoopCheckoutTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093C9D3A258626EC00286702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC131E819B9FCB8E906E2582 /* Pods_ZoopCheckout_ZoopCheckoutUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		092C9B812586A687003E3316 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				092C9B822586A6E2003E3316 /* Roboto */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		092C9B822586A6E2003E3316 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				092C9B832586A6E2003E3316 /* Roboto-Medium.ttf */,
+				092C9B842586A6E2003E3316 /* Roboto-Light.ttf */,
+				092C9B852586A6E2003E3316 /* Roboto-Regular.ttf */,
+				092C9B862586A6E2003E3316 /* Roboto-MediumItalic.ttf */,
+				092C9B872586A6E2003E3316 /* Roboto-ThinItalic.ttf */,
+				092C9B882586A6E2003E3316 /* Roboto-BoldItalic.ttf */,
+				092C9B892586A6E2003E3316 /* Roboto-LightItalic.ttf */,
+				092C9B8A2586A6E2003E3316 /* Roboto-Italic.ttf */,
+				092C9B8B2586A6E2003E3316 /* LICENSE.txt */,
+				092C9B8C2586A6E2003E3316 /* Roboto-BlackItalic.ttf */,
+				092C9B8D2586A6E2003E3316 /* Roboto-Bold.ttf */,
+				092C9B8E2586A6E2003E3316 /* Roboto-Thin.ttf */,
+				092C9B8F2586A6E2003E3316 /* Roboto-Black.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		092C9BA82586ADD3003E3316 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				092C9BA92586ADEC003E3316 /* Buttons+Extension.swift */,
+				092C9BB42586B8D9003E3316 /* View+Extension.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		092C9BC62587694F003E3316 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				092C9BC12587690E003E3316 /* SignInView.swift */,
+				092C9BC725876971003E3316 /* SignInViewModel.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		092C9BCF25876D02003E3316 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				092C9BD025876D31003E3316 /* UserCredential.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		092C9BE925878785003E3316 /* Spash */ = {
+			isa = PBXGroup;
+			children = (
+				093C9D26258626E600286702 /* SplashView.swift */,
+			);
+			path = Spash;
+			sourceTree = "<group>";
+		};
+		092C9BEA2587878E003E3316 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				092C9B6A25867F9F003E3316 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		092C9BEB25878798003E3316 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				092C9B6F2586843D003E3316 /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		093C9D18258626E500286702 = {
+			isa = PBXGroup;
+			children = (
+				093C9D23258626E600286702 /* ZoopCheckout */,
+				093C9D35258626EC00286702 /* ZoopCheckoutTests */,
+				093C9D40258626EC00286702 /* ZoopCheckoutUITests */,
+				093C9D22258626E600286702 /* Products */,
+				3F91B947F50CDE2C5A0F2769 /* Pods */,
+				557BB3A9F5C7336CB49F56D3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		093C9D22258626E600286702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				093C9D21258626E600286702 /* ZoopCheckout.app */,
+				093C9D32258626EC00286702 /* ZoopCheckoutTests.xctest */,
+				093C9D3D258626EC00286702 /* ZoopCheckoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		093C9D23258626E600286702 /* ZoopCheckout */ = {
+			isa = PBXGroup;
+			children = (
+				092C9BA82586ADD3003E3316 /* Styles */,
+				093C9D5925862B0100286702 /* Repository */,
+				093C9D5825862AFA00286702 /* Service */,
+				093C9D5725862AEB00286702 /* Component */,
+				093C9D532586274E00286702 /* View */,
+				093C9D522586272E00286702 /* Resouces */,
+				093C9D24258626E600286702 /* ZoopCheckoutApp.swift */,
+				093C9D28258626EB00286702 /* Assets.xcassets */,
+				093C9D2D258626EB00286702 /* Info.plist */,
+				093C9D2A258626EB00286702 /* Preview Content */,
+				092C9BA02586A8DF003E3316 /* Constants.swift */,
+			);
+			path = ZoopCheckout;
+			sourceTree = "<group>";
+		};
+		093C9D2A258626EB00286702 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				093C9D2B258626EB00286702 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		093C9D35258626EC00286702 /* ZoopCheckoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				093C9D36258626EC00286702 /* ZoopCheckoutTests.swift */,
+				093C9D38258626EC00286702 /* Info.plist */,
+			);
+			path = ZoopCheckoutTests;
+			sourceTree = "<group>";
+		};
+		093C9D40258626EC00286702 /* ZoopCheckoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				093C9D41258626EC00286702 /* ZoopCheckoutUITests.swift */,
+				093C9D43258626EC00286702 /* Info.plist */,
+			);
+			path = ZoopCheckoutUITests;
+			sourceTree = "<group>";
+		};
+		093C9D522586272E00286702 /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				092C9B812586A687003E3316 /* Font */,
+			);
+			path = Resouces;
+			sourceTree = "<group>";
+		};
+		093C9D532586274E00286702 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				092C9BEB25878798003E3316 /* Dashboard */,
+				092C9BEA2587878E003E3316 /* Home */,
+				092C9BE925878785003E3316 /* Spash */,
+				092C9BC62587694F003E3316 /* SignIn */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		093C9D5725862AEB00286702 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				092C9B7C25868563003E3316 /* ZoopLogo.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		093C9D5825862AFA00286702 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				092C9BCF25876D02003E3316 /* User */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		093C9D5925862B0100286702 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		3F91B947F50CDE2C5A0F2769 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13EF668A7FD5C05DBC7A1B46 /* Pods-ZoopCheckout.debug.xcconfig */,
+				D347F10DC6AB4CCF79D50708 /* Pods-ZoopCheckout.release.xcconfig */,
+				7226AFC7309F1FE56BDD5E8F /* Pods-ZoopCheckout-ZoopCheckoutUITests.debug.xcconfig */,
+				8D3A98C27B368B5B8DB3BE46 /* Pods-ZoopCheckout-ZoopCheckoutUITests.release.xcconfig */,
+				2E15E6CCF995CC70BF61F40F /* Pods-ZoopCheckoutTests.debug.xcconfig */,
+				25CF03CD7D2339DF4C5CC37E /* Pods-ZoopCheckoutTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		557BB3A9F5C7336CB49F56D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07D2BD47A0B3F043DB5D98A2 /* Pods_ZoopCheckout.framework */,
+				96F04E126BA7F289B7898095 /* Pods_ZoopCheckout_ZoopCheckoutUITests.framework */,
+				0160141F0208471FDD1FBDF2 /* Pods_ZoopCheckoutTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		093C9D20258626E600286702 /* ZoopCheckout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093C9D46258626EC00286702 /* Build configuration list for PBXNativeTarget "ZoopCheckout" */;
+			buildPhases = (
+				F0060A977BB765FE81B77356 /* [CP] Check Pods Manifest.lock */,
+				093C9D1D258626E600286702 /* Sources */,
+				093C9D1E258626E600286702 /* Frameworks */,
+				093C9D1F258626E600286702 /* Resources */,
+				0C924FCE0F8B3F57399B4C56 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZoopCheckout;
+			productName = ZoopCheckout;
+			productReference = 093C9D21258626E600286702 /* ZoopCheckout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		093C9D31258626EC00286702 /* ZoopCheckoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093C9D49258626EC00286702 /* Build configuration list for PBXNativeTarget "ZoopCheckoutTests" */;
+			buildPhases = (
+				F8DC8280BDCA481F73541942 /* [CP] Check Pods Manifest.lock */,
+				093C9D2E258626EC00286702 /* Sources */,
+				093C9D2F258626EC00286702 /* Frameworks */,
+				093C9D30258626EC00286702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				093C9D34258626EC00286702 /* PBXTargetDependency */,
+			);
+			name = ZoopCheckoutTests;
+			productName = ZoopCheckoutTests;
+			productReference = 093C9D32258626EC00286702 /* ZoopCheckoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		093C9D3C258626EC00286702 /* ZoopCheckoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093C9D4C258626EC00286702 /* Build configuration list for PBXNativeTarget "ZoopCheckoutUITests" */;
+			buildPhases = (
+				8E912D8B7F72AE8AEC8A70AF /* [CP] Check Pods Manifest.lock */,
+				093C9D39258626EC00286702 /* Sources */,
+				093C9D3A258626EC00286702 /* Frameworks */,
+				093C9D3B258626EC00286702 /* Resources */,
+				305035CDB236E6F364F9AA8D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				093C9D3F258626EC00286702 /* PBXTargetDependency */,
+			);
+			name = ZoopCheckoutUITests;
+			productName = ZoopCheckoutUITests;
+			productReference = 093C9D3D258626EC00286702 /* ZoopCheckoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		093C9D19258626E600286702 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					093C9D20258626E600286702 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					093C9D31258626EC00286702 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 093C9D20258626E600286702;
+					};
+					093C9D3C258626EC00286702 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 093C9D20258626E600286702;
+					};
+				};
+			};
+			buildConfigurationList = 093C9D1C258626E600286702 /* Build configuration list for PBXProject "ZoopCheckout" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 093C9D18258626E500286702;
+			productRefGroup = 093C9D22258626E600286702 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				093C9D20258626E600286702 /* ZoopCheckout */,
+				093C9D31258626EC00286702 /* ZoopCheckoutTests */,
+				093C9D3C258626EC00286702 /* ZoopCheckoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		093C9D1F258626E600286702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092C9B9B2586A6E3003E3316 /* Roboto-Thin.ttf in Resources */,
+				092C9B982586A6E3003E3316 /* LICENSE.txt in Resources */,
+				092C9B9C2586A6E3003E3316 /* Roboto-Black.ttf in Resources */,
+				092C9B9A2586A6E3003E3316 /* Roboto-Bold.ttf in Resources */,
+				093C9D2C258626EB00286702 /* Preview Assets.xcassets in Resources */,
+				093C9D29258626EB00286702 /* Assets.xcassets in Resources */,
+				092C9B952586A6E3003E3316 /* Roboto-BoldItalic.ttf in Resources */,
+				092C9B922586A6E3003E3316 /* Roboto-Regular.ttf in Resources */,
+				092C9B942586A6E3003E3316 /* Roboto-ThinItalic.ttf in Resources */,
+				092C9B962586A6E3003E3316 /* Roboto-LightItalic.ttf in Resources */,
+				092C9B992586A6E3003E3316 /* Roboto-BlackItalic.ttf in Resources */,
+				092C9B912586A6E3003E3316 /* Roboto-Light.ttf in Resources */,
+				092C9B972586A6E3003E3316 /* Roboto-Italic.ttf in Resources */,
+				092C9B932586A6E3003E3316 /* Roboto-MediumItalic.ttf in Resources */,
+				092C9B902586A6E3003E3316 /* Roboto-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093C9D30258626EC00286702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093C9D3B258626EC00286702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C924FCE0F8B3F57399B4C56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZoopCheckout/Pods-ZoopCheckout-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZoopCheckout/Pods-ZoopCheckout-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZoopCheckout/Pods-ZoopCheckout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		305035CDB236E6F364F9AA8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZoopCheckout-ZoopCheckoutUITests/Pods-ZoopCheckout-ZoopCheckoutUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZoopCheckout-ZoopCheckoutUITests/Pods-ZoopCheckout-ZoopCheckoutUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZoopCheckout-ZoopCheckoutUITests/Pods-ZoopCheckout-ZoopCheckoutUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E912D8B7F72AE8AEC8A70AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZoopCheckout-ZoopCheckoutUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0060A977BB765FE81B77356 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZoopCheckout-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8DC8280BDCA481F73541942 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZoopCheckoutTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		093C9D1D258626E600286702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092C9BC22587690E003E3316 /* SignInView.swift in Sources */,
+				092C9BAA2586ADEC003E3316 /* Buttons+Extension.swift in Sources */,
+				092C9BC825876971003E3316 /* SignInViewModel.swift in Sources */,
+				092C9B6B25867F9F003E3316 /* HomeView.swift in Sources */,
+				092C9BB52586B8D9003E3316 /* View+Extension.swift in Sources */,
+				092C9B702586843D003E3316 /* DashboardView.swift in Sources */,
+				093C9D27258626E600286702 /* SplashView.swift in Sources */,
+				093C9D25258626E600286702 /* ZoopCheckoutApp.swift in Sources */,
+				092C9BD125876D31003E3316 /* UserCredential.swift in Sources */,
+				092C9B7D25868563003E3316 /* ZoopLogo.swift in Sources */,
+				092C9BA12586A8DF003E3316 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093C9D2E258626EC00286702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093C9D37258626EC00286702 /* ZoopCheckoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093C9D39258626EC00286702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093C9D42258626EC00286702 /* ZoopCheckoutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		093C9D34258626EC00286702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 093C9D20258626E600286702 /* ZoopCheckout */;
+			targetProxy = 093C9D33258626EC00286702 /* PBXContainerItemProxy */;
+		};
+		093C9D3F258626EC00286702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 093C9D20258626E600286702 /* ZoopCheckout */;
+			targetProxy = 093C9D3E258626EC00286702 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		093C9D44258626EC00286702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		093C9D45258626EC00286702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		093C9D47258626EC00286702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13EF668A7FD5C05DBC7A1B46 /* Pods-ZoopCheckout.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ZoopCheckout/Preview Content\"";
+				DEVELOPMENT_TEAM = W4BT4PJY7X;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ZoopCheckout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoop.ZoopCheckout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		093C9D48258626EC00286702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D347F10DC6AB4CCF79D50708 /* Pods-ZoopCheckout.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ZoopCheckout/Preview Content\"";
+				DEVELOPMENT_TEAM = W4BT4PJY7X;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ZoopCheckout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoop.ZoopCheckout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		093C9D4A258626EC00286702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E15E6CCF995CC70BF61F40F /* Pods-ZoopCheckoutTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4BT4PJY7X;
+				INFOPLIST_FILE = ZoopCheckoutTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoop.ZoopCheckoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZoopCheckout.app/ZoopCheckout";
+			};
+			name = Debug;
+		};
+		093C9D4B258626EC00286702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25CF03CD7D2339DF4C5CC37E /* Pods-ZoopCheckoutTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4BT4PJY7X;
+				INFOPLIST_FILE = ZoopCheckoutTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoop.ZoopCheckoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZoopCheckout.app/ZoopCheckout";
+			};
+			name = Release;
+		};
+		093C9D4D258626EC00286702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7226AFC7309F1FE56BDD5E8F /* Pods-ZoopCheckout-ZoopCheckoutUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4BT4PJY7X;
+				INFOPLIST_FILE = ZoopCheckoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoop.ZoopCheckoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZoopCheckout;
+			};
+			name = Debug;
+		};
+		093C9D4E258626EC00286702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D3A98C27B368B5B8DB3BE46 /* Pods-ZoopCheckout-ZoopCheckoutUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4BT4PJY7X;
+				INFOPLIST_FILE = ZoopCheckoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoop.ZoopCheckoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZoopCheckout;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		093C9D1C258626E600286702 /* Build configuration list for PBXProject "ZoopCheckout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093C9D44258626EC00286702 /* Debug */,
+				093C9D45258626EC00286702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		093C9D46258626EC00286702 /* Build configuration list for PBXNativeTarget "ZoopCheckout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093C9D47258626EC00286702 /* Debug */,
+				093C9D48258626EC00286702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		093C9D49258626EC00286702 /* Build configuration list for PBXNativeTarget "ZoopCheckoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093C9D4A258626EC00286702 /* Debug */,
+				093C9D4B258626EC00286702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		093C9D4C258626EC00286702 /* Build configuration list for PBXNativeTarget "ZoopCheckoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093C9D4D258626EC00286702 /* Debug */,
+				093C9D4E258626EC00286702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 093C9D19258626E600286702 /* Project object */;
+}
